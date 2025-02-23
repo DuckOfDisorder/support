@@ -32,7 +32,7 @@
         border-radius: 1vmax;
         background: white;
 
-        width: 50vh;
+        width: min(50vh, 90vw);
         display: flex;
         flex-direction: column;
         
@@ -74,8 +74,7 @@
         border-radius: 1vmax;
         background: white;
 
-        width: 50vh;
-
+        width: min(50vh, 90vw);
         
         font-family: "Exo 2", serif;
         font-optical-sizing: auto;
